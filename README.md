@@ -67,7 +67,7 @@ ansible_playbook --v -i inventory first_playbook.yml - for debug
  
  
  
- 
+ https://www.youtube.com/watch?v=Z6T2r3Xhk5k&list=PLdpzxOOAlwvIKMhk8WhzN1pYoJ1YU8Csa&index=22 
  
 
 Yml file for installing and restart nginx on target servers using ansible from from other server we do this by configuring inventory file by adding IP address of target file in inventory. before that we instal ansible and make the ansible to connect to target servers without authentication (i.e without password).   
