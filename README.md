@@ -24,7 +24,8 @@ therefore : ssh (paste private key of target ansible server ) - we can connect t
  cat ~/ansible/inventory   \  - to view content in inventory file.  \\
  
  step 3 : 
-scenario 1: creating files in target server writing ansible adhoc commands or play book  \
+scenario 1: creating files in target server writing ansible adhoc commands or play book  \ ( https://docs.ansible.com/ansible/2.9/modules/copy_module.html#copy-module) \ 
+
 
  -i inventory all -m "shell" -a "touch devopsclass"  \ - this will create file named devopsclass  in the target server. \\ 
 
